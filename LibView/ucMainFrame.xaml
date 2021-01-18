@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="LibView.ucMainFrame"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LibView"
+             mc:Ignorable="d" 
+             d:DesignHeight="680" d:DesignWidth="540">
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="133*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" x:Name="btnChoiseSide" Orientation="Horizontal">
+            <Button x:Name="btnInside" Content="Inside" Margin="5" Height="20" Width="60" Click="btnInside_Click"/>
+            <Button x:Name="btnOutside" Content="Outside" Margin="5" Height="20" Width="60" Click="btnOutside_Click"/>
+        </StackPanel>
+        
+        <Grid Grid.Row="1">
+            <Grid x:Name="grdInSide" Visibility="Visible"/>
+            <Grid x:Name="grdOutSide" Visibility="Hidden"/>
+        </Grid>
+    </Grid>
+</UserControl>

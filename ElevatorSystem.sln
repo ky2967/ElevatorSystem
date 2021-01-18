@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSystem", "ElevatorSystem\ElevatorSystem.csproj", "{80ED1939-7B8F-4A86-BC57-1E5502492828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibController", "LibController", "{898158DC-60CB-40A1-BFB8-F6D0A264CA1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibView", "LibView", "{37F8BD07-DC12-4C70-9D41-07B8481DC569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibModel", "LibModel", "{7CE3C863-6802-47AD-B1CC-98331236EE61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMove", "LibMove\LibMove.csproj", "{8D502894-7ADD-4072-9B0F-B2B5E3AEF1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibModel", "LibModel\LibModel.csproj", "{F18A2BC9-708C-4F4C-A6BB-E5BAD10BACD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibView", "LibView\LibView.csproj", "{0D991DB1-630D-4020-8BE9-5A642B6CCC04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80ED1939-7B8F-4A86-BC57-1E5502492828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80ED1939-7B8F-4A86-BC57-1E5502492828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80ED1939-7B8F-4A86-BC57-1E5502492828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80ED1939-7B8F-4A86-BC57-1E5502492828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D502894-7ADD-4072-9B0F-B2B5E3AEF1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D502894-7ADD-4072-9B0F-B2B5E3AEF1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D502894-7ADD-4072-9B0F-B2B5E3AEF1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D502894-7ADD-4072-9B0F-B2B5E3AEF1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18A2BC9-708C-4F4C-A6BB-E5BAD10BACD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18A2BC9-708C-4F4C-A6BB-E5BAD10BACD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18A2BC9-708C-4F4C-A6BB-E5BAD10BACD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18A2BC9-708C-4F4C-A6BB-E5BAD10BACD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D991DB1-630D-4020-8BE9-5A642B6CCC04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D991DB1-630D-4020-8BE9-5A642B6CCC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D991DB1-630D-4020-8BE9-5A642B6CCC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D991DB1-630D-4020-8BE9-5A642B6CCC04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D502894-7ADD-4072-9B0F-B2B5E3AEF1B4} = {898158DC-60CB-40A1-BFB8-F6D0A264CA1D}
+		{0D991DB1-630D-4020-8BE9-5A642B6CCC04} = {37F8BD07-DC12-4C70-9D41-07B8481DC569}
+		{F18A2BC9-708C-4F4C-A6BB-E5BAD10BACD3} = {7CE3C863-6802-47AD-B1CC-98331236EE61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A7BA315-24DA-4BD9-A25A-51B7F9588667}
+	EndGlobalSection
+EndGlobal
